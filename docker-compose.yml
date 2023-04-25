@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+        context: ./
+    tty: true
+    stdin_open: true
+    environment:
+      PYNGUIN_DANGER_AWARE: true
+    volumes:
+      - ./:/home/app
