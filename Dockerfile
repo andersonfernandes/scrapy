@@ -5,4 +5,4 @@ RUN apt update && apt install -y git
 RUN mkdir /home/app
 WORKDIR /home/app
 
-RUN pip install pynguin w3lib scrapy
+RUN pip install pynguin w3lib scrapy mutatest sybil testfixtures sphinx_rtd_theme coverage
