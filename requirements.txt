@@ -1,0 +1,4 @@
+twisted
+w3lib
+lxml
+parsel
